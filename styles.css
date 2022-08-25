@@ -251,7 +251,7 @@ body {
   margin-bottom: 15px;
 }
 
-.gray-line {
+.gray-lineA {
   width: 208px;
   height: 8px;
 
@@ -360,4 +360,503 @@ body {
   color: #b2b7be;
   text-align: center;
   margin-bottom: 50px;
+}
+
+main {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.panel2-wrapper {
+  padding-bottom: 110px;
+}
+
+.solutions-box {
+  margin-bottom: 85px;
+}
+
+.solutions-h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1f1f26;
+}
+
+.solutions-text {
+  width: 551px;
+  margin: 0 auto;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #426666;
+}
+
+.influencer-box {
+  display: flex;
+  margin-bottom: 86px;
+  justify-content: center;
+}
+
+.influencer-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #b33cdb;
+  margin-bottom: 8px;
+}
+
+.influencer-subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  /* identical to box height, or 133% */
+
+  color: #1f1f26;
+  margin-bottom: 14px;
+}
+
+.influencer-desc {
+  width: 340px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  letter-spacing: 0.01em;
+
+  color: #426666;
+  margin-bottom: 30px;
+}
+
+.influencer-btn {
+  display: flex;
+}
+
+.influencer-btn-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #42424a;
+}
+
+.arrowb {
+  padding-left: 12px;
+}
+
+.influencer-card {
+  width: 240.48px;
+  height: 282px;
+
+  background: #ffffff;
+  /* d */
+
+  box-shadow: -8px 30px 80px -25px rgba(82, 82, 82, 0.1);
+  border-radius: 8px;
+
+  margin-left: 140px;
+}
+
+.influencer-container {
+  display: flex;
+  padding-left: 20.76px;
+}
+
+.influencer-photo {
+  height: 42.39px;
+  width: 42.39px;
+  margin-top: 6.06px;
+}
+
+.influencer-line-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16.85px;
+  padding-top: 8.65px;
+}
+
+.gray-lineB {
+  width: 64.01px;
+  height: 6.92px;
+
+  background: #e0e0e6;
+  border-radius: 7px;
+
+  margin-bottom: 12.43px;
+}
+
+.gray-lineC {
+  width: 120px;
+  height: 6px;
+
+  background: #f3f4f9;
+  border-radius: 7px;
+
+  margin-bottom: 6px;
+}
+
+.gray-lineD {
+  width: 94px;
+  height: 5px;
+
+  background: #f3f4f9;
+  border-radius: 7px;
+
+  margin-bottom: 24.2px;
+}
+
+.influencer-phone-img {
+  margin: 0 auto;
+  margin-bottom: 18.42px;
+  display: block;
+}
+
+.influencer-likes-box {
+  display: flex;
+  align-items: center;
+  margin-left: 21px;
+}
+
+.influencer-heart {
+  width: 22px;
+  height: 22px;
+}
+
+.influencer-likes {
+  margin-left: 6px;
+  display: block;
+  justify-content: center;
+}
+
+.community-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 79px;
+}
+
+.community-fig {
+  position: relative;
+  display: flex;
+  width: 267px;
+  height: 267px;
+
+  background: #ffffff;
+  /* d */
+
+  box-shadow: -8px 30px 80px -25px rgba(82, 82, 82, 0.1);
+
+  border-radius: 50%;
+
+  margin-right: 159px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.community-icon {
+  width: 32%;
+  height: 32%;
+}
+
+.comm-photo {
+  position: absolute;
+}
+
+.community-photoA {
+  top: -6%;
+}
+
+.community-photoB {
+  right: 0%;
+  top: 14%;
+}
+
+.community-photoC {
+  right: 0%;
+  top: 68%;
+}
+
+.community-photoD {
+  left: 0%;
+  top: 68%;
+}
+
+.community-photoE {
+  left: 0%;
+  top: 14%;
+}
+
+.community-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #fbba33;
+  margin-bottom: 8px;
+}
+
+.community-subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  /* identical to box height, or 133% */
+
+  color: #1f1f26;
+  margin-bottom: 14px;
+}
+
+.community-desc {
+  width: 340px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  letter-spacing: 0.01em;
+
+  color: #426666;
+  margin-bottom: 30px;
+}
+
+.community-btn {
+  display: flex;
+}
+
+.community-btn-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #42424a;
+}
+
+.services-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-text-box {
+  padding-right: 97px;
+}
+
+.services-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: #de2879;
+
+  margin-bottom: 8px;
+}
+
+.services-subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  /* identical to box height, or 133% */
+
+  color: #1f1f26;
+
+  margin-bottom: 14px;
+}
+
+.services-desc {
+  width: 354px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  letter-spacing: 0.01em;
+
+  color: #426666;
+
+  margin-bottom: 30px;
+}
+
+.services-btn {
+  display: flex;
+}
+
+.services-btn-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #42424a;
+}
+
+.services-card {
+  position: relative;
+  display: flex;
+  width: 268.72px;
+  height: 296.93px;
+
+  background: #ffffff;
+  /* d */
+
+  box-shadow: -8px 30px 80px -25px rgba(82, 82, 82, 0.1);
+  border-radius: 8px;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-card-title {
+  padding-top: 30.43px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #7c89a9;
+
+  margin-bottom: 26.31px;
+}
+
+.services-card-graph {
+  width: 161px;
+  height: 161px;
+  margin-bottom: 26.73px;
+}
+
+.services-card-dollar {
+  position: absolute;
+  left: 7%;
+  top: 35%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #6a35ff;
+
+  width: 74.23px;
+  height: 34.15px;
+
+  background: #ffffff;
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+
+  padding-top: 7.42px;
+}
+
+.services-graph-legend {
+  display: flex;
+  width: 100%;
+  padding-left: 50.48px;
+}
+
+.services-platform {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #7c89a9;
+
+  position: relative;
+}
+
+.services-platform::before {
+  content: "";
+  width: 6.68px;
+  height: 6.68px;
+  border-radius: 50%;
+
+  background-color: green;
+
+  position: absolute;
+
+  left: -23%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.insta {
+  margin-right: 26.46px;
+}
+
+.dribble {
+  margin-right: 33.29px;
+}
+
+.insta::before {
+  background-color: #703ffb;
+}
+.dribble::before {
+  background: #de287a;
+}
+.twitter::before {
+  background: #fcae56;
 }
