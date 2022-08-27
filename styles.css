@@ -361,3 +361,77 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
+
+.panelB-wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: #231a36;
+}
+
+.search-h1 {
+  width: 734px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  /* or 125% */
+  margin: 0 auto;
+  text-align: center;
+
+  color: #ffffff;
+
+  margin-bottom: 18px;
+  padding-top: 120px;
+}
+
+.search-desc {
+  width: 562px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #7b9292;
+
+  margin-bottom: 110px;
+}
+
+.stats-box {
+  display: flex;
+  padding-bottom: 120px;
+  justify-content: space-evenly;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.stats-num {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 40px;
+  /* identical to box height, or 100% */
+
+  color: #ffffff;
+
+  padding-bottom: 10px;
+}
+
+.stats-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  color: #7b9292;
+}
