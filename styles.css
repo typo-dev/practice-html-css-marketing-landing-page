@@ -1106,3 +1106,206 @@ main {
 
   padding-right: 6px;
 }
+
+.panelD-wrapper {
+  padding-bottom: 130px;
+}
+
+.panelD-header-box {
+  display: flex;
+}
+
+.panelD-quotations-box {
+  padding-left: 242px;
+  padding-right: 35px;
+}
+
+.panelD-title-box {
+  text-align: center;
+  width: 40%;
+}
+
+.panelD-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1f1f26;
+
+  padding-bottom: 10px;
+}
+
+.panelD-desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #426666;
+
+  padding-bottom: 83px;
+}
+
+.panelD-content-box {
+  display: flex;
+  padding-left: 242px;
+}
+
+.panelD-review-box {
+  width: 477px;
+  margin-right: 154px;
+}
+
+.review-logo {
+  display: flex;
+  position: relative;
+  width: 62px;
+  height: 62px;
+
+  background: linear-gradient(209.43deg, #9e2692 12.36%, #faa958 89.4%);
+  box-shadow: 20px 25px 50px rgba(181, 33, 0, 0.1);
+
+  border-radius: 50%;
+
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.review-white-circle {
+  position: absolute;
+  width: 41.62px;
+  height: 41.62px;
+
+  border: 2px solid #ffffff;
+
+  border-radius: 50%;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.review-F {
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.review-text {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+  /* or 164% */
+
+  color: #6d6d6d;
+  margin-bottom: 55px;
+}
+
+.review-bottom-box {
+  position: relative;
+  display: flex;
+}
+
+.review-name {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #1c1c1d;
+  margin-bottom: 12px;
+}
+
+.review-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #9c988f;
+}
+
+.review-arrows-box {
+  position: absolute;
+  left: 82%;
+  top: 54%;
+  display: flex;
+}
+
+.review-arrow-left-btn {
+  display: flex;
+  box-sizing: border-box;
+  width: 29px;
+  height: 29px;
+
+  border: 1px solid #e8e4dc;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 17px;
+}
+
+.review-arrow-right-btn {
+  display: flex;
+  width: 29px;
+  height: 29px;
+
+  background: #ffffff;
+  box-shadow: 0px 14px 30px -4px rgba(206, 206, 206, 0.5);
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.panelD-review-photo-box {
+  position: relative;
+}
+
+.review-photo-thinking {
+  position: relative;
+  z-index: 1000;
+
+  background: none;
+}
+
+.review-blur-square {
+  position: absolute;
+  width: 190.72px;
+  height: 190.72px;
+
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(28.082px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 22.1252px;
+
+  left: 13.5%;
+  top: 10%;
+
+  z-index: 100;
+}
+
+.review-semi-circle {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 10;
+}
